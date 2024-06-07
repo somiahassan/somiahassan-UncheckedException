@@ -13,6 +13,7 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        throw new NullPointerException("This method must throw an unchecked exception");
 
     }
 }
